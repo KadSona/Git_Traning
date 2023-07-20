@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coupons</title>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags -->
+
+    <!-- CSS links -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style_icons.css" rel="stylesheet" type="text/css" />
+    <link href="css/style_magento.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    
+    <!-- CSS links -->
+
+    <!-- font awesome links -->
+    <link href="https://use.fontawesome.com/6f4d530519.css" media="all" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/sidebar.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+<div class="page-wrapper map_page"> 
+<!--    mobile footer menu -->
+    <section class="mobile_menu">
+        <div class="mobile_menu_main">
+            <div class="container">
+                <ul>
+                    <li class="col-xs-3 hvr-fade">
+                        <a href="index.html">
+                            <span class="icon-home"></span>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="col-xs-3 hvr-fade">
+                        <a href="#">
+                            <span class="icon-profile_mobile"></span>
+                            <p>Profile</p>
+                        </a>
+                    </li>
+                    <li class="col-xs-3 hvr-fade">
+                        <a href="#">
+                            <span class="icon-notification"></span>
+                            <p>Notifiations</p>
+                        </a>
+                    </li>
+                    <li class="col-xs-3 hvr-fade">
+                        <a href="#">
+                            <span class="icon-Wallet_icon"></span>
+                            <p>Wallet</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!--    mobile footer menu -->
+    <header id="headerContent" class="page-header main_header sticky hidden-xs">
+        <div class="header content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-6 col-md-6">
+                        <div class="header_left">
+                            <div class="main_menu_btn">
+                                <div class="main_menu">
+                                    <div class="sidebar" id="sidebar">
+                                        <div class="left_menu_contain">
+                                            <div class="logo_left">
+                                                <a href="#">Kupon</a>
+                                                <div class="close">
+                                                    <a href="" id="sidebar-close" class="btn-close">
+                                                        <i class="fa fa-remove"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="left_menu_main">
+                                                <ul>
+                                                    <li>
+                                                        <a href="about_us.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-about_us"></span>
+                                                            <p>About Us</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="categories.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-categories"></span>
+                                                            <p>Categories</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="how_It_works.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-how_it_work"></span>
+                                                            <p>How It Works</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="work_with_us.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-work_with_us"></span>
+                                                            <p>Work with us</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="contact_us.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-contact-menu"></span>
+                                                            <p>Contact Us</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="rate_us.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-rate_us"></span>
+                                                            <p>Rate Us</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="sitemap.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-sitemap"></span>
+                                                            <p>Sitemap</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="sitemap.html" class="hvr-wobble-horizontal">
+                                                            <span class="icon-login"></span>
+                                                            <p>Login</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <a href="#" id="open-left"></a>
+                            </div>
+                            <a href="index.html" class="logo_img hidden-xs">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                            <div class="select_city" data-toggle="modal" data-target="#myModal2">
+                                <p><span>Mumbai</span></p>
+                            </div>
+                        </div><!-- /container -->
+                    </div>
+                    <div class="col-xs-4 col-sm-6 col-md-6">
+                        <div class="header_right">
+                            <div class="search_btn">
+                                <button type="button" class="box move_down hvr-bob" data-toggle="modal" data-target="#myModal">
+                                    <span class="icon-Search_icon"></span>
+                                </button>
+                            </div>
+                            <div class="notification_top_btn hidden-xs">
+                                <div class="dropdown">
+                                      <button class="dropdown-toggle notification_link hvr-bob" type="button" data-toggle="dropdown">
+                                        <span class="icon-notification"></span>
+                                        <p>04</p>
+                                      </button>
+                                      
+                                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li>
+                                            <a href="#">
+                                                <span class="col-sm-2 nopadding">
+                                                    <img src="images/brands/ccd.png" alt="">
+                                                </span>
+                                                <div class="col-sm-8 notification_text1">
+                                                    <h5>Coupon for CCD</h5>
+                                                    <p>“Buy 2for1” is about to expire.</p>
+                                                </div>
+                                                <div class="col-sm-2 notification_time">
+                                                    <p><span>2:30</span></p>
+                                                </div>
+                                            </a>
+                                          </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="col-sm-2 nopadding">
+                                                    <img src="images/brands/ccd.png" alt="">
+                                                </span>
+                                                <div class="col-sm-8 notification_text1">
+                                                    <h5>Coupon for CCD</h5>
+                                                    <p>“Buy 2for1” is about to expire.</p>
+                                                </div>
+                                                <div class="col-sm-2 notification_time">
+                                                    <p><span>2:30</span></p>
+                                                </div>
+                                            </a>
+                                          </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="col-sm-2 nopadding">
+                                                    <img src="images/brands/ccd.png" alt="">
+                                                </span>
+                                                <div class="col-sm-8 notification_text1">
+                                                    <h5>Coupon for CCD</h5>
+                                                    <p>“Buy 2for1” is about to expire.</p>
+                                                </div>
+                                                <div class="col-sm-2 notification_time">
+                                                    <p><span>2:30</span></p>
+                                                </div>
+                                            </a>
+                                          </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="col-sm-2 nopadding">
+                                                    <img src="images/brands/ccd.png" alt="">
+                                                </span>
+                                                <div class="col-sm-8 notification_text1">
+                                                    <h5>Coupon for CCD</h5>
+                                                    <p>“Buy 2for1” is about to expire.</p>
+                                                </div>
+                                                <div class="col-sm-2 notification_time">
+                                                    <p><span>2:30</span></p>
+                                                </div>
+                                            </a>
+                                          </li>
+                                        <li class="notification_dropdown_btn">
+                                            <a href="#" class="">See All Notifications</a>  
+                                            <a href="#" class="clear_all_btn">Clear All</a> 
+                                        </li>
+                                      </ul>
+                                </div>
+                            </div>
+                            <div class="wallet_link hidden-xs hvr-bob">
+                                <a href="#"><span class="icon-Wallet_icon"></span></a>
+                            </div>
+                            <div class="user_dropdown">
+                                 <div class="dropdown">
+                                      <button class="dropdown-toggle hvr-bob" type="button" data-toggle="dropdown">
+                                        <span class="icon-user_icon"></span>
+                                        <p class="hidden-xs">John Smith</p>
+                                      </button>
+                                      <ul class="dropdown-menu">
+                                        <li class="user_dropdown_main">
+                                          <div class="user_details_top">
+                                            <span class="col-xs-2 col-sm-2"><img src="images/user_img.png" alt=""></span>
+                                            <div class="user_info col-xs-8 col-sm-8">
+                                                <h6 class="user_name">John Smith</h6>
+                                                <p class="mail_id">jondoe123@gmail.com</p>
+                                            </div>
+                                            <a class="edit_icon col-sm-1 nopadding" href="#">
+                                                <span class="icon-edit"></span>
+                                            </a>
+                                            <div class="user_mobile_number">
+                                                <p>Verify your mobile number</p> 
+                                                <span>9769061431</span>
+                                            </div>
+                                          </div>
+                                          <ul class="user_coupons_details">
+                                            <li>Your Available Coupons <span>09</span></li>
+                                            <li>Favourite Coupons <span>02</span></li>
+                                            <li>Settings<span><img src="images/arrow_right.png" alt=""></span></li>
+                                          </ul>
+                                          <a href="#" class="logout_btn">Logout 
+                                              <span class="icon-logout"></span>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                 </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="map_page_body">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="sidebarPanal" class="col-sm-4 col-md-3 hidden-xs nopadding">
+                  <div class="search_coupons">
+                    <div class="search_bar">
+                        <form action="/action_page.php">
+                            <a class="mobile_back_btn" data-dismiss="modal">
+                                <img class="svg_icon" src="images/arrow_left.png" alt="search_icon">
+                            </a>
+                            <input type="text" placeholder="Your location" name="search">
+                            <button type="submit">
+                                <span class="icon-search_location"></span>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="explore_category_icon">
+                        <div class="col-sm-12 nopadding">
+                            <div id="explore_content">
+                                <ul>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_dinning"></span>
+                                            <h6>Dinning</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_Hotel"></span>
+                                            <h6>Hotels</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_spa"></span>
+                                            <h6>Spa</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_medical"></span>
+                                            <h6>Medical</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_Movie"></span>
+                                            <h6>Movie</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_Shopping"></span>
+                                            <h6>Shopping</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_entertainment"></span>
+                                            <h6>Entertainment</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_games"></span>
+                                            <h6>Games</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_fitness"></span>
+                                            <h6>Fitness</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_hobbies"></span>
+                                            <h6>Hobbies</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_automotive"></span>
+                                            <h6>Automotive</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_free"></span>
+                                            <h6>Free</h6>
+                                        </a>
+                                    </li>
+                                    <li class="col-xs-4 col-sm-4">
+                                        <a href="#">
+                                            <span class="icon-category_Activities"></span>
+                                            <h6>Activities</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 nopadding explore_btn">
+                            <div class="view_more_btn">
+                                <img class="vmvl" name="togglepicture" src="images/category_more.svg" border="0">
+                                <span>View More</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 nearby_coupons_btn">
+                            <a href="#" class="hvr-fade">Nearby Coupons</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9 nopadding map_view_mobile">
+                        <div class="search_bar hidden-sm hidden-md hidden-lg">
+                            <form action="/action_page.php">
+                                <a class="mobile_back_btn" data-dismiss="modal">
+                                    <img class="svg_icon" src="images/arrow_left.png" alt="search_icon">
+                                </a>
+                                <input type="text" placeholder="Your location" name="search">
+                                <button type="submit">
+                                    <span class="icon-search_location"></span>
+                                </button>
+                            </form>
+                        </div>
+                    <div class="map_view">
+                        <div id="map_div">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>    
+
+    
+    
+<!-- Modal -->
+  <div class="modal fade search_section" id="myModal" role="dialog">
+    <div class="container">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <!-- Modal content-->
+              <div class="modal-content search_container">
+                  <div class="search_bar">
+                    <form action="/action_page.php">
+                        <a class="mobile_back_btn" data-dismiss="modal">
+                          <img class="svg_icon" src="images/arrow_left.png" alt="search_icon">
+                        </a>
+                      <input type="text" placeholder="Search..." name="search">
+                      <button type="submit">
+                          <span class="icon-Search_icon"></span>
+                      </button>
+                    </form>
+                  </div>
+                  <div class="search_info">
+                        <div class="col-sm-6 col-md-6 nopadding">
+                            <div class="popular_categories_info">
+                                <h4>Popular Categories</h4>
+                                <div class="row">
+                                    <ul class="search_categories">
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Spa</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Movie</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Shopping</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Travel</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Dining</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Hotels</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Fitness</a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-3">
+                                            <a href="">Medical</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 nopadding">
+                            <div class="most_popular_coupons">
+                                <h4>Most Popular Coupons</h4>
+                                <div class="row">
+                                    <ul>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/burger_king.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/kfc.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/adidas.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/puma.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/barbie.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/adidas.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/puma.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/kfc.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/kfc.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/burger_king.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/adidas.png" alt=""></a>
+                                        </li>
+                                        <li class="col-xs-3 col-sm-2">
+                                            <a href=""><img src="images/brands/barbie.png" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+              </div>
+        </div>  
+    </div>
+  </div>
+
+    
+<!-- search clity Modal -->
+  <div class="modal fade search_section" id="myModal2" role="dialog">
+    <div class="container">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <!-- Modal content-->
+              <div class="modal-content search_container">
+                  <div class="search_bar">
+                    <form action="/action_page.php">
+                        <a class="mobile_back_btn" data-dismiss="modal">
+                          <img class="svg_icon" src="images/arrow_left.png" alt="search_icon">
+                        </a>
+                      <input type="text" placeholder="Search..." name="search">
+                      <button type="submit">
+                          <span class="icon-Search_icon"></span>
+                      </button>
+                    </form>
+                  </div>
+              </div>
+        </div>  
+    </div>
+  </div> 
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+<!--    main menu js    -->
+<script src="js/sidebar.js" defer></script>
+    
+
+
+
+</body>
+</html>

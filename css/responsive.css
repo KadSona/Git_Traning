@@ -1,0 +1,537 @@
+@media screen and (max-width: 1310px) {
+    .brandcoupons_details {
+        min-height: 102px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .explore_category_icon #explore_content ul li a img, 
+    .explore_category_icon .view_more_btn img, 
+    .explore_category_icon .view_less_btn img {
+        width: 40px;
+    }
+    .explore_category_icon #explore_content ul li h6 {
+        font-size: 12px;
+    }
+    .explore_category_icon .view_more_btn span, .explore_category_icon .view_less_btn span {
+        font-size: 12px;
+    }
+    .featuredcoupon_main .coupon_box1 {
+        min-height: 360px;
+    }
+    .releted_latest_coupons .coupon_box1 {
+        min-height: 280px;
+    }
+    
+}
+@media screen and (max-width: 1200px) { 
+    .km_info ul li {
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 1045px) { 
+    .brandcoupons_details {
+        min-height: 121px;
+    }
+    .travelcoupons_info {
+        top: 20px;
+    }
+    .travelcoupons_info h4 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .km_info {
+        padding: 20px 0px 0px;
+    }
+    .km_info ul {
+        float: left;
+    }
+    .km_info ul li {
+        padding: 0px 15px;
+    }
+    .km_info ul li:first-child {
+        padding-left: 0px;
+    }
+    .merchant_heading_details {
+        padding: 20px;
+    }
+    .comment_details p {
+        float: left;
+        padding-top: 5px;
+    }
+    .merchant_heading_details .following_btn a {
+        width: 100%;
+    }
+    .user_reviews p.star_details {
+        float: left;
+        margin-top: 5px;
+    }
+    .facebook_followers ul li {
+        width: 30px;
+        height: 30px;
+    }
+    .facebook_followers ul li i {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .travelcoupons_info {
+        top: 20px;
+        left: 20px;
+    }
+    .travelcoupons_info h4 {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .travelcoupons_info h3 {
+        font-size: 25px;
+    }
+    .rating_star {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .page-wrapper {
+        padding-bottom: 58px;
+        background-color: #F5F5F5;
+    }
+    .explore_coupons_section h2 {
+        padding-left: 20px;
+    }
+    .coupons_hot_icon span {
+        margin-left: 10px;
+    }
+    header .container {
+        padding: 0px 0px;
+    }
+    .header_right {
+        padding: 28px 0px 50px;
+    }
+    .header_left {
+        padding: 20px 0px;
+    }
+    .map_page .header_right {
+        padding: 16px 0px 16px;
+    }
+    .map_page .header_left {
+        padding: 7px 0px;
+    }
+    .select_city {
+        padding-left: 0px;
+        margin-left: 0px;
+        border-left: 0px solid #fff;
+    }
+    .search_link{
+        padding-left: 0px;
+    }
+    .search_link h1 {
+        font-size: 27px;
+        font-weight: 300;
+    }
+    .search_btn, .wallet_link {
+        padding: 0px 5px;
+    }
+    .icon-Search_icon {
+        display: inline-block;
+        padding-top: 5px;
+    }
+    .near_by_link {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .hot_selling_slider .owl-carousel .owl-nav {
+        display: none;
+    }
+    .top_brands_section{
+        padding: 10px 5% 0px;
+    }
+    .hot_selling_slider {
+        padding: 10px 0px 50px;
+    }
+    .hot_selling_section .hot_selling_slider .owl-carousel {
+        display: inline-block;
+    }
+    .hot_selling_slider .view_all_btn {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px 0;
+        width: 90%;
+        display: inline-block;
+        background-color: #6A1B9A;
+        border-radius: 23px;
+        margin-top: 50px;
+        border: 1px solid #6A1B9A;
+    }
+    .hot_selling_slider .view_all_btn:hover {
+        border: 1px solid #6A1B9A;
+        color: #6A1B9A;
+        background-color: #fff;
+        border-radius: 23px;
+        text-decoration: none;
+    }
+    .featured_coupons h2 {
+        font-size: 16px;
+        color: #535353;
+        padding-left: 0px;
+    }
+    .featured_coupons .view_all_btn {
+        font-size: 14px;
+        color: #6A1B9A;
+        line-height: 22px;
+    }
+    .notification_top_btn {
+        display: none;
+    }
+    .mobile_menu {
+        display: inline-block;
+        background-color: #6A1B9A;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 9;
+    }
+    .mobile_menu_main ul {
+        width: 100%;
+        float: left;
+        margin-bottom: 0px;
+    }
+    .mobile_menu_main ul li {
+        float: left;
+        padding: 10px 0px 5px;
+        margin-bottom: 0px;
+    }
+    .mobile_menu_main ul li a{
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+    .mobile_menu_main ul li a img { 
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+    .mobile_menu_main ul li a p {
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+    .mobile_menu_main ul li a span {
+        font-size: 18px;
+        line-height: 20px;
+        display: inline-block;
+        width: 100%;
+    }
+    .mobile_menu_main ul li:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .hot_selling_img1 {
+        margin-bottom: 20px;
+    }
+    .hot_selling_section h2 {
+        padding-left: 0px;
+    }
+    .explore_coupons_section {
+        padding: 15px;
+    }
+    #explore_content ul li {
+        padding: 10px;
+        width: 33.33333333%;;
+    }
+    #explore_content ul li h6 {
+        font-size: 12px;
+    }
+    .view_more_btn span, .view_less_btn span {
+        font-size: 12px;
+    }
+    .user_dropdown .dropdown-menu {
+        right: 0px;
+        min-width: 290px;
+    }
+    .user_dropdown .dropdown-menu::before {
+        right: 0px;
+    }
+    .view_less_btn {
+        position: absolute;
+        right: 0;
+        bottom: -5px;
+        background-color: #fff;
+        width: 33.33333333%;
+    }
+    .view_more_btn {
+        float: right;
+        width: 33.33333333%;
+        position: absolute;
+        right: 0;
+        bottom: -5px;
+        background-color: #fff; 
+    }
+    #explore_content {
+        max-height: 305px;
+    }
+    .featured_coupons .owl-carousel {
+        display: block;
+    }
+    .featured_coupons .owl-carousel .item {
+        padding: 10px;
+        float: left;
+        width: 50%;
+    }
+    .featuredcoupon_main {
+        position: relative;
+        margin: 0px;
+    }
+    .coupon_box1 {
+        padding: 30px 0px 30px;
+    }
+    .featuredcoupon_main .coupons_hot_icon {
+        left: 0;
+    }
+    .featuredcoupon_main .free_tag {
+        right: 0;
+    }
+    .travelcoupons_info {
+        top: 30px;
+        left: 30px;
+    }
+    .travelcoupons_info h4 {
+        font-size: 22px;
+    }
+    .search_section .modal-dialog {
+        margin: 0px;
+    }
+    .search_section button.close {
+        display: none;
+    }
+    .search_section .mobile_back_btn {
+        display: inline-block;
+        margin-right: 36px;
+        float: left;
+    }
+    .search_section .mobile_back_btn img{
+        float: left;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        left: 3%;
+    }
+    .search_section input[type="text"] {
+        padding-left: 50px;
+    }
+    .search_section .container {
+        padding: 0;
+    }
+    .search_section .search_container {
+        border-radius: 0px;
+        padding: 15px;
+    }
+    .popular_categories_info .search_categories {
+        width: 100%;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .search_section {
+        background-color: #F6F6F6;
+    }
+    .comment_details p {
+        padding: 0px;
+        float: right;
+    }
+    .merchant_details_tabpanel .tab-content {
+        padding: 30px;
+    }
+    .user_reviews {
+        border: 0px;
+    }
+    .user_reviews p.star_details {
+        float: right;
+        margin-top: 0px;
+    }
+    .merchant_img {
+        border-top-right-radius: 10px;
+    }
+    .user_reviews {
+        padding: 30px 0px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .merchant_details_tabpanel .nav-tabs li a {
+        margin: 0px 5px;
+        font-size: 16px;
+        padding: 30px 15px 15px;
+    }
+    .user_details span.col-xs-3 {
+        width: auto;
+    }
+    .user_details img {
+        margin-right: 0px;
+    }
+    .rating_star {
+        width: auto;
+    }
+    .owl-latest-coupons.owl-carousel.owl-theme {
+        display: block;
+    }
+    .releted_latest_coupons .owl-carousel .item {
+        float: left;
+        width: 50%;
+    }
+    .releted_latest_coupons .featuredcoupon_main .coupon_box1 {
+        min-height: 290px;
+    }
+    .map_view_mobile .search_bar {
+        z-index: 99;
+        padding: 30px;
+    }
+    .map_view_mobile .search_bar form {
+        position: relative;
+    }
+    .map_view_mobile .search_bar input[type="text"] {
+        height: 45px;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 0px 0px 0px 40px;
+    }
+    .map_view_mobile .search_bar .mobile_back_btn {
+        display: block;
+    }
+    .map_view_mobile .search_bar button{
+        padding: 10px;
+    }
+    .map_view_mobile .search_bar button span::before {
+        font-size: 22px;
+    }
+    .map_view_mobile .search_bar .mobile_back_btn img {
+        float: left;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 32%;
+        width: auto;
+        left: 4%;
+    }
+    .map_page_body {
+        padding-top: 0px;
+    }
+    .mobile_view_header {
+        float: left;
+        width: 100%;
+        height: 63px;
+    }
+    .heading_1 {
+        float: left;
+        padding: 20px 17px;
+        width: 100%;
+    }
+    .heading_1 span {
+        float: left;
+        margin-right: 30px;
+    }
+    .heading_1 h6 {
+        margin: 0px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        float: left;
+    }
+    .map_page_body.scroll_page_contain {
+        padding-top: 63px;
+    }
+    .sidebar_available_coupons {
+        background-color: #F1F1F2;
+        padding: 17px;
+    }
+    .sidebar_available_coupons .near_available_coupons {
+        border-radius: 18px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px -4px #373737;
+    }
+    .sidebar_available_coupons .near_by_link span:before  {
+        background: -webkit-linear-gradient(#705BCA, #9A24E9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 45px;
+        line-height: 47px;
+        width: 100%;
+        text-align: center;
+    }
+    #content-3 #mCSB_1_scrollbar_vertical {
+        display: none!important;
+    }
+    .nearby_coupons_list ul#content-3 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #explore_content {
+        max-height: 230px;
+    }
+    #explore_content ul li {
+        padding: 20px 0 ;
+        width: 33.33%;
+    }
+    .view_less_btn {
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        background-color: #fff;
+    }
+    #explore_content ul li a img, .view_more_btn img, .view_less_btn img  {
+        width: 35px;
+        height: 35px;
+    }
+    .view_more_btn {
+        float: right;
+        margin-right: 0px;
+    }
+    .featuredcoupon_main {
+        position: relative;
+        margin: 0px;
+    }
+    .merchant_details_tabpanel .tab-content {
+        padding: 15px;
+    }
+    .releted_latest_coupons .owl-carousel .item {
+        float: left;
+        width: 100%;
+    }
+    .releted_latest_coupons .featuredcoupon_main .coupon_box1 {
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .featured_coupons .owl-carousel .item {
+        width: 100%;
+    }
+    .travelcoupons_info {
+        top: 20px;
+        left: 10px;
+    }
+    .travelcoupons_info h4 {
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    .merchant_details_tabpanel .nav-tabs li a {
+        font-size: 16px;
+        padding: 30px 10px 15px;
+    }
+    .search_btn {
+        float: left;
+    }
+    .user_dropdown {
+        padding: 6px 10px 3px 7px;
+    }
+    .comment_details p {
+        font-size: 13px;
+    }
+}

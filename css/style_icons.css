@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icons/icomoon.eot?f40q45');
+  src:  url('../fonts/icons/icomoon.eot?f40q45#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?f40q45') format('truetype'),
+    url('../fonts/icons/icomoon.woff?f40q45') format('woff'),
+    url('../fonts/icons/icomoon.svg?f40q45#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-km_location .path1:before {
+  content: "\e921";
+  color: rgb(255, 255, 255);
+}
+.icon-km_location .path2:before {
+  content: "\e922";
+  margin-left: -0.6806640625em;
+  color: rgb(106, 27, 154);
+}
+.icon-km_location .path3:before {
+  content: "\e927";
+  margin-left: -0.6806640625em;
+  color: rgb(106, 27, 154);
+}
+.icon-search_location:before {
+  content: "\e928";
+  color: #9f9f9f;
+}
+.icon-share:before {
+  content: "\e91f";
+}
+.icon-rating:before {
+  content: "\e912";
+  color: #eaba17;
+}
+.icon-category_games:before {
+  content: "\e906";
+}
+.icon-contact-menu:before {
+  content: "\e900";
+}
+.icon-category_less:before {
+  content: "\e901";
+  color: #72279f;
+}
+.icon-category_more:before {
+  content: "\e902";
+  color: #666;
+}
+.icon-category_Movie:before {
+  content: "\e903";
+}
+.icon-category_Shopping:before {
+  content: "\e904";
+}
+.icon-category_spa:before {
+  content: "\e905";
+}
+.icon-edit:before {
+  content: "\e907";
+  color: #72279f;
+}
+.icon-logout:before {
+  content: "\e908";
+  color: #72279f;
+}
+.icon-work_with_us:before {
+  content: "\e909";
+}
+.icon-about_us:before {
+  content: "\e90a";
+}
+.icon-categories:before {
+  content: "\e90b";
+}
+.icon-category_Activities:before {
+  content: "\e90c";
+}
+.icon-category_automotive:before {
+  content: "\e90d";
+}
+.icon-category_dinning:before {
+  content: "\e90e";
+}
+.icon-category_entertainment:before {
+  content: "\e90f";
+}
+.icon-category_fitness:before {
+  content: "\e910";
+}
+.icon-category_free:before {
+  content: "\e911";
+}
+.icon-category_hobbies:before {
+  content: "\e913";
+}
+.icon-category_Hotel:before {
+  content: "\e914";
+}
+.icon-category_medical:before {
+  content: "\e915";
+}
+.icon-hot:before {
+  content: "\e916";
+  color: #fd0;
+}
+.icon-category_Shopping1:before {
+  content: "\e917";
+}
+.icon-home:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon-how_it_work:before {
+  content: "\e919";
+}
+.icon-login:before {
+  content: "\e91a";
+}
+.icon-near_by_location:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-notification:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-profile_mobile:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-rate_us:before {
+  content: "\e91e";
+}
+.icon-notification_icon:before {
+  content: "\e920";
+}
+.icon-Search_icon:before {
+  content: "\e923";
+  color: #fff;
+}
+.icon-sitemap:before {
+  content: "\e924";
+}
+.icon-user_icon:before {
+  content: "\e925";
+  color: #fff;
+}
+.icon-Wallet_icon:before {
+  content: "\e926";
+  color: #fff;
+}
